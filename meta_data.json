@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "data (things)"
+    },
+    "description": "A simplified plugin for reordering lists.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1663796484578x493416430137812100/DALL%C2%B7E%202022-09-21%2014.41.12%20-%20an%20icon%20for%20reordering%20in%20svg%20format.png",
+    "license": "private",
+    "name": "Reorder Repeating Group",
+    "plugin_instructions": "1. Place the element on the page.\n2. Give the element the list you want to work with.\n3. Run the actions to Swap items, or delete items.\n3.1. You MUST use the index # of the 2 items you want to swap.\n3.2. There is a slight delay in the state updating(Bubble Limitation), so you must trigger any actions you want to do with a schedule custom action with a delay of some sort.\n"
+}

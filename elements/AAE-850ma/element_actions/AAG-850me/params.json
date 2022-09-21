@@ -1,0 +1,20 @@
+{
+    "caption": "Swap Items",
+    "doc": "",
+    "fields": {
+        "AAH": {
+            "caption": "Item Index",
+            "editor": "DynamicValue",
+            "name": "item_index",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Swap Item Index",
+            "editor": "DynamicValue",
+            "name": "swap_item_index",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}

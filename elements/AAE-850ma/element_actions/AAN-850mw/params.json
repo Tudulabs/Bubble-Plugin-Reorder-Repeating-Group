@@ -1,0 +1,12 @@
+{
+    "caption": "Delete item",
+    "fields": {
+        "AAO": {
+            "caption": "Item Index",
+            "editor": "DynamicValue",
+            "name": "item_index_delete",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}

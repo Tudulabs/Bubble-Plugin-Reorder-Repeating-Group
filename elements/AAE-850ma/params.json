@@ -1,0 +1,36 @@
+{
+    "add_is_visible": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "ReorderList",
+    "fields": {
+        "AAF": {
+            "caption": "List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list",
+            "rank": 0,
+            "value": "_any_thing"
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAK": {
+            "caption": "New List Order",
+            "initialization_code": {
+                "add_debugger": false,
+                "fn": "function(properties, context) \n\n\n\t\n\n\n}"
+            },
+            "is_list": true,
+            "name": "new_list_order",
+            "value": "text"
+        }
+    }
+}
