@@ -1,0 +1,61 @@
+{
+    "category": "data (things)",
+    "display": "Insert item into specific position",
+    "fields": {
+        "AAQ": {
+            "caption": "Type of items",
+            "doc": "The type of the data you want to work with",
+            "editor": "custom_type",
+            "name": "type_of_items",
+            "rank": 0
+        },
+        "AAR": {
+            "caption": "List of items",
+            "doc": "This is the list you'll be modifying.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_items",
+            "rank": 1,
+            "value": "custom_data_AAQ"
+        },
+        "AAS": {
+            "caption": "Position to insert into",
+            "doc": "The position you want the item to move into the list at. This will retain and push down the item that is already existing in this position.",
+            "editor": "DynamicValue",
+            "name": "position_to_insert_into",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAT": {
+            "caption": "Item to insert",
+            "doc": "The item you want to position into the list.",
+            "editor": "DynamicValue",
+            "name": "item_to_insert",
+            "rank": 3,
+            "value": "custom_data_AAQ"
+        }
+    },
+    "return_value": {
+        "AAV": {
+            "caption": "New list order",
+            "is_list": true,
+            "name": "new_list_order",
+            "rank": 0,
+            "value": "custom_data_AAQ"
+        },
+        "AAW": {
+            "caption": "Original List Order",
+            "is_list": true,
+            "name": "original_list_order",
+            "rank": 1,
+            "value": "custom_data_AAQ"
+        },
+        "AAX": {
+            "caption": "Item Inserted",
+            "name": "item_inserted",
+            "rank": 2,
+            "value": "custom_data_AAQ"
+        }
+    },
+    "type": "server_side"
+}

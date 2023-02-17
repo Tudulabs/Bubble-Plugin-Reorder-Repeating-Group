@@ -1,5 +1,5 @@
 {
-    "add_is_visible": false,
+    "add_is_visible": true,
     "category": "visual elements",
     "default_dim": {
         "height": 10,
