@@ -25,7 +25,6 @@
         "AAK": {
             "caption": "New List Order",
             "initialization_code": {
-                "add_debugger": false,
                 "fn": "function(properties, context) \n\n\n\t\n\n\n}"
             },
             "is_list": true,
