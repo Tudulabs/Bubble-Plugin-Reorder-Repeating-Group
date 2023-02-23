@@ -44,8 +44,6 @@ instance.data.handleStopTyping = (content, id) => {
 
 
 /* START UPDATE */
-
-
 function main() {
     //wrapped to avoid return error
     function isFocused(focused) {
