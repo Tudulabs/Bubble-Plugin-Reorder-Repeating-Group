@@ -14,6 +14,13 @@
             "name": "list",
             "rank": 0,
             "value": "_any_thing"
+        },
+        "AAZ": {
+            "caption": "New test field",
+            "editor": "StaticText",
+            "name": "new_test_field",
+            "optional": true,
+            "rank": 1
         }
     },
     "has_reset_fn": false,
