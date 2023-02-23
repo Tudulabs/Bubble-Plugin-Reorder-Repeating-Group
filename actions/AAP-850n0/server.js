@@ -1,14 +1,14 @@
 function(properties, context) {
-  let list;
+  let list = null;
   const length = properties.list_of_items?.length() === null ? 0 : properties.list_of_items?.length();
-   
-    if(length > 0){
-  		list = properties.list_of_items?.get(0, length);
+
+  if (length > 0) {
+    list = properties.list_of_items?.get(0, length);
   }
-        else{
-        list = []
-    }
-  
+  else {
+    list = []
+  }
+
   const itemToInsert = properties.item_to_insert;
   const positionToInsertInto = properties.position_to_insert_into - 1;
 
