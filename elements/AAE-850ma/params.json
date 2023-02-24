@@ -21,6 +21,13 @@
             "name": "new_test_field",
             "optional": true,
             "rank": 1
+        },
+        "AAb": {
+            "caption": "New test field 2",
+            "editor": "StaticText",
+            "name": "new_test_field_2",
+            "optional": true,
+            "rank": 2
         }
     },
     "has_reset_fn": false,
