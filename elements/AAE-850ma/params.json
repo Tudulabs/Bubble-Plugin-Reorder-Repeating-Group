@@ -21,6 +21,13 @@
             "name": "new_test_field",
             "optional": true,
             "rank": 1
+        },
+        "AAc": {
+            "caption": "hree ",
+            "editor": "StaticText",
+            "name": "hree_",
+            "optional": true,
+            "rank": 2
         }
     },
     "has_reset_fn": false,
