@@ -33,6 +33,13 @@
             "name": "item_to_insert",
             "rank": 3,
             "value": "custom_data_AAQ"
+        },
+        "AAa": {
+            "caption": "another new test field",
+            "editor": "StaticText",
+            "name": "another_new_test_field",
+            "optional": true,
+            "rank": 4
         }
     },
     "return_value": {
