@@ -1,9 +1,9 @@
-function(properties, context) {
+async function(properties, context) {
   let list;
-  const length = properties.list_of_items?.length() === null ? 0 : properties.list_of_items?.length();
+  const length = await properties.list_of_items?.length() === null ? 0 : await properties.list_of_items?.length();
    
     if(length > 0){
-  		list = properties.list_of_items?.get(0, length);
+  		list = await properties.list_of_items?.get(0, length);
   }
         else{
         list = []

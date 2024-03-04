@@ -8,5 +8,5 @@
     "license": "open_source",
     "name": "Additional List actions",
     "plugin_instructions": "1. Place the element on the page.\n2. Give the element the list you want to work with.\n3. Run the actions to Swap items, or delete items.\n3.1. You MUST use the index # of the 2 items you want to swap.\n3.2. There is a slight delay in the state updating(Bubble Limitation), so you must trigger any actions you want to do with a schedule custom action with a delay of some sort.\n",
-    "sa_node_version": 14
+    "sa_node_version": 18
 }
